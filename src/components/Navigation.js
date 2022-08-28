@@ -1,8 +1,10 @@
 import React from 'react';
-import LoginForm from './LoginForm';
 
+
+// This is my navigation componenet that creates a navbar with some links
 export default class Navigation extends React.Component{
     render(){
+        // Here I created a navbar that is displayed on the top of the page
         return (
             
             <nav className='navbar navbar-expand-lg navbar-dark bg-primary'>

@@ -1,6 +1,10 @@
 import React from "react";
 
+// This is the React component I created for the Login Form
+// I used a variable to store a border property for the form
+
 export default class LoginForm extends React.Component{
+    // This is the method that prints the XML to the screen
     render(){
 
         const x ={
